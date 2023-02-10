@@ -1,0 +1,6 @@
+print(78+78)
+print("Welcome to my class")
+print(56/3)
+print(67*2)
+print(Hello)
+print()
