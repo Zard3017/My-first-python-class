@@ -31,6 +31,19 @@ car3=Cars("Chevrolet","Trailblazer",2016)
 car3.say_this()
 car4=Cars("Mitsubishi","Lancer",2007)
 car4.say_this()
+#Inheritance
+
+class Ballers:
+    def __init__(self,name,age,country):
+        self.name=name
+        self.age=age
+        self.country=country
+    def say_this(self):
+        print(f"Hi ,my name is {self.name}, I suam {self.age}.I come from {self.country} ")
+baller1=Ballers("Jude Bellingham",20, "England")
+baller1.say_this()
+baller2=Ballers("Lionel Messi",34, "Argentina")
+baller2.say_this()
 
 
 
