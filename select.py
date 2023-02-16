@@ -7,3 +7,4 @@ for row in data:
     print ("AGE =",row[2])
     print ("SCHOOL =",row[3],"\n")
 conn.close()
+#python3 select.py
